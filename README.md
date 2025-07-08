@@ -76,7 +76,7 @@ let params = `_page=${pageNumber}`;
 `https://mpadatabase.mandaragat.org/mpaMap`
 
 ### Retrieve ALL Map data within specified Bounding Box 
-`https://mpadatabase.mandaragat.org/mpaMap/mpaMapBounded/bbox?bbox=${encodeURIComponent(bboxParam)}`
+`https://mpadatabase.mandaragat.org/mpaMapBounded/bbox?bbox=${encodeURIComponent(bboxParam)}`
 ### Sample of URL
 `https://mpadatabase.mandaragat.org/mpaMapBounded/bbox?bbox=[[114.12597,19.663280],[130.528564,19.663280],[130.528564,12.050065],[114.125976,12.05006],[114.12597,19.663280]]&nipas=1&ecosystem=Mangroves`  
 
